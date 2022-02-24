@@ -20,4 +20,4 @@ class AFrameEnviroment extends React.Component{
     }
 }
 
-export default AFrameEnviorment
+export default AFrameEnviroment
