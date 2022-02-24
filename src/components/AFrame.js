@@ -2,7 +2,7 @@ import AFrame from 'aframe'
 import Room from 'aframe-room-component'
 import React from 'react'
 
-class AFrame extends React.Component{
+class AFrameEnviroment extends React.Component{
     render() {
         return <a-scene>
                 <a-assets>
@@ -20,4 +20,4 @@ class AFrame extends React.Component{
     }
 }
 
-export default AFrame
+export default AFrameEnviorment
