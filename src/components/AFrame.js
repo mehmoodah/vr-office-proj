@@ -8,7 +8,7 @@ class AFrameEnviroment extends React.Component{
                 <a-assets>
                     <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg"></img>
                 </a-assets>
-                <a-plane position="0 4 -3" rotation="-180 90 90" width="4" height="4" src="#groundTexture"></a-plane>
+                <a-plane position="0 4 -3" rotation="-270 90 90" width="4" height="4" src="#groundTexture"></a-plane>
 
                 <a-plane position="2 2 -3" rotation="-180 90 90" width="4" height="4" src="#groundTexture"></a-plane>
                 <a-plane position="-2 2 -3" rotation="0 90 90" width="4" height="4" src="#groundTexture"></a-plane>
