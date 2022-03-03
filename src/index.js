@@ -3,8 +3,6 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-require('aframe');
-require('aframe-room-component');
 
 class App extends Component {
   render () {
