@@ -1,6 +1,6 @@
-import AFrame from 'aframe'
-import Room from 'aframe-room-component'
 import React from 'react'
+import 'aframe'
+import 'aframe-room-component'
 
 class AFrameEnviroment extends React.Component{
     render() {
