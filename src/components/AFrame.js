@@ -1,14 +1,44 @@
-import React from 'react'
-import 'aframe'
-import 'aframe-room-component'
+import 'aframe';
+import React from 'react';
+
+
+//--------------------IMPORT OBJECTS----------------------//
+
+
+//--------------------IMPORT OBJECTS---------------------
 
 class AFrameEnviroment extends React.Component{
     render() {
-        return <a-scene>
+        return (
+
+
+            <a-scene>
                 <a-assets>
                     <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg"/>
                     <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg"/>
+
+
+
+
+
+
+
+
                 </a-assets>
+
+
+                <a-entity 
+                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
+                        scale=".001 .001 .001"
+                ></a-entity>
+
+                <a-entity 
+                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/drawer.glb?v=1649167482215)"
+                        scale=".100 .100 .100"
+                        position="-2.249 0 0"
+                ></a-entity>
+
+
                         
                 <a-plane position="0 0 -3" rotation="-90 90 90" width="4" height="4" src="#groundTexture"/>
                 <a-sky id="bg" radius="30" src="#skyTexture" theta-length="90"/>
@@ -31,6 +61,10 @@ class AFrameEnviroment extends React.Component{
                 <a-plane position="5 0 4.5" rotation="0 180 0"  width="6" height="8" color="orange"/>
 
             </a-scene>
+
+
+        );
+           
     }
 }
 
