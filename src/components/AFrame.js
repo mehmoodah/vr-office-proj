@@ -4,7 +4,7 @@ import React from 'react';
 
 //--------------------IMPORT OBJECTS----------------------//
 
-
+//
 //--------------------IMPORT OBJECTS---------------------
 
 class AFrameEnviroment extends React.Component{
