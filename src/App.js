@@ -13,7 +13,7 @@ class App extends Component {
         <rw-wall position="0 0 4"></rw-wall>
         <rw-wall position="0 0 0">
         </rw-wall>
-        <a-entity gltf-model={require("C:/Users/baroz/OneDrive/Documents/React/fo-app/work-webvr/src/EricGtlf/eric.gltf")} rotation="270 0 0" scale="0.01 0.01 0.01" 
+        <a-entity gltf-model={require("./EricGtlf/eric.gltf")} rotation="270 0 0" scale="0.01 0.01 0.01" 
         position="1.99207 -0.17827 0"></a-entity>
 
         <rw-ceiling material="color:#91898c"></rw-ceiling>
