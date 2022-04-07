@@ -1,5 +1,6 @@
-import 'aframe';
-import React from 'react';
+import 'https://aframe.io/releases/1.2.0/aframe.min.js'
+import 'https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js'
+import React, {Component} from 'react';
 
 
 //--------------------IMPORT OBJECTS----------------------//
@@ -7,13 +8,13 @@ import React from 'react';
 
 //--------------------IMPORT OBJECTS---------------------
 
-class AFrameEnviroment extends React.Component{
+class AFrameEnviroment extends Component{
     render() {
         return (
 
 
             <a-scene>
-                <a-assets>
+                {/* <a-assets>
                     <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg"/>
                     <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg"/>
 
@@ -24,28 +25,17 @@ class AFrameEnviroment extends React.Component{
 
 
 
-                </a-assets>
+                </a-assets> */}
 
 
-                <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
-                        scale=".001 .001 .001"
-                ></a-entity>
+                
 
-                <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/drawer.glb?v=1649167482215)"
-                        scale=".100 .100 .100"
-                        position="-2.249 0 0"
-                ></a-entity>
-
-
+                {/* <a-entity gltf-model={require("C:/Users/Ronnie/Desktop/adamHead.gltf")} position="1 0 0"></a-entity> */}
                         
-                <a-plane position="0 0 -3" rotation="-90 90 90" width="4" height="4" src="#groundTexture"/>
-                <a-sky id="bg" radius="30" src="#skyTexture" theta-length="90"/>
-                <a-cylinder id="ground" src="#groundTexture" radius="32" height="0.1"/>
+                
 
-                //Ceiling
-                <a-plane position="0 4 -3" rotation="-270 90 90" width="16" height="15" color="red"/>
+                {/* //Ceiling
+                <a-plane position="0 4 -3" rotation="-270 90 90" width="16" height="15" color="green"/>
 
                 //Left Wall
                 <a-plane position="-8 0 -3" rotation="0 90 0" width="15" height="8" color="green"/>
@@ -54,12 +44,46 @@ class AFrameEnviroment extends React.Component{
                 <a-plane position="8 0 -3" rotation="0 -90 0" width="15" height="8" color="green"/>
 
                 //Back Wall
-                <a-plane position="0 0 -10.5" rotation="0 0 0" width="16" height="8" color="blue"/>
+                <a-plane position="0 0 -10.5" rotation="0 0 0" width="16" height="8" color="green"/>
 
                 //Front Wall
-                <a-plane position="-4 0 4.5" rotation="0 180 0"  width="8" height="8" color="orange"/>
-                <a-plane position="5 0 4.5" rotation="0 180 0"  width="6" height="8" color="orange"/>
+                <a-plane position="-4 0 4.5" rotation="0 180 0"  width="8" height="8" color="green"/>
+                <a-plane position="5 0 4.5" rotation="0 180 0"  width="6" height="8" color="green"/> */}
 
+
+
+                {/* <rw-room position="-2 0 -2" material="color: #91898c; alphaTest:  0;  offset:  [object Object];  repeat:  [object Object];  shader:  msdf;  vertexColors:  face">
+                    <a-plane position="0 0 -3" rotation="-90 90 90" width="4" height="4" src="#groundTexture"/>
+                    <a-sky id="bg" radius="30" src="#skyTexture" theta-length="90"/>
+                    <a-cylinder id="ground" src="#groundTexture" radius="32" height="0.1"/>
+                    <rw-wall position="4 0 0"></rw-wall>
+			        <rw-wall position="4 0 4"></rw-wall>
+			        <rw-wall position="0 0 4"></rw-wall>
+			        <rw-wall position="0 0 0"></rw-wall>
+
+                    <a-entity 
+                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
+                        scale=".001 .001 .001"
+                    ></a-entity>
+
+                    <a-entity 
+                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/drawer.glb?v=1649167482215)"
+                        scale=".100 .100 .100"
+                        position="-2.249 0 0"
+                    ></a-entity>
+
+                    <rw-ceiling material="color:#91898c"></rw-ceiling>
+                </rw-room> */}
+
+            <rw-room position="-2 0 -2" material="color:  #91898c;">        
+                <rw-wall position="4 0 0"></rw-wall>
+                <rw-wall position="4 0 4"></rw-wall>
+                <rw-wall position="0 0 4"></rw-wall>
+                <rw-wall position="0 0 0"></rw-wall>
+        
+
+                <rw-ceiling material="color:#91898c"></rw-ceiling>
+            </rw-room>
             </a-scene>
 
 
