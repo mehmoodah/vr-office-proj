@@ -1,7 +1,9 @@
 //import 'aframe';
 import React from 'react';
-import 'https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js'
-import 'https://aframe.io/releases/1.2.0/aframe.min.js'
+import 'https://unpkg.com/aframe-room-component/dist/aframe-room-component.min.js';
+import 'https://aframe.io/releases/1.2.0/aframe.min.js';
+import 'https://cdn.rawgit.com/donmccurdy/aframe-extras/v6.1.0/dist/aframe-extras.min.js';
+
 
 //--------------------IMPORT OBJECTS----------------------//
 
@@ -21,6 +23,11 @@ class AFrameEnviroment extends React.Component{
                     <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg"/>
                     <audio id="office" src="https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/office_ambiance.wav?v=1649732899279"></audio>
 
+                    <a-asset-item id="wolf"
+                                    src="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/wolf_with_animations/scene.gltf?token=GHSAT0AAAAAABSDSTXGDLMSH5VDFJGPO3UUYSVUQJQ)">
+                    </a-asset-item>
+
+
                 </a-assets>
 
 
@@ -36,61 +43,66 @@ class AFrameEnviroment extends React.Component{
                 </a-entity>
                 
                 
-                {/*Office background sound*/}
+                {/*Office background sound
                 <a-entity sound="src: url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/office_ambiance.wav?v=1649732899279);
                                 autoplay: true;
                                 refDistance: 4;
                                 rolloffFactor: 4">
-                </a-entity>
+                </a-entity>*/}
 
-                {/*drawer*/}
+                {/*plant*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/plant/scene.gltf)"
                         scale=".001 .001 .001"
                         position="3 0 -6"
                 ></a-entity>
 
-                {/*plant*/}
+                {/*drawer*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/drawer.glb?v=1649167482215)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/drawer/model.gltf)"
                         scale=".100 .100 .100"
                         position="3 0 -7"
                 ></a-entity>
 
-                {/*Josh model*/}
-                <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/model.glb?v=1649346710260)"
-                        scale=".010 .010 .010"
-                        position="3 0 -5"
-                ></a-entity>
+
 
                  {/*Simple Office Table*/}
                  <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/simple_office_table.glb?v=1649706104093)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/simple_office_table/model.gltf)"
                         scale="10 10 10"
-                        position="3 0 -4"
+                        position="-2 0 -3"
                 ></a-entity>
 
                 {/*Black Office Chair*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/OfficeChair.glb?v=1649706093123)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/Office_Chair/model.gltf)"
                         scale="1.5 1.5 1.5"
                         position="3 0 -3"
                 ></a-entity>
 
                 {/*White Office Chair*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/lider_comfort_office_chair_white.glb?v=1649706097846)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/White_Office_Chair/model.gltf)"
                         scale="1.5 1.5 1.5"
                         position="3 0 -2"
                 ></a-entity>
 
                  {/*Wood Boss Office Table*/}
                  <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/wood_boss_office_table.glb?v=1649706145130)"
+                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/wood_boss_office_chair/model.gltf)"
                         scale=".005 .005 .005"
                         position="3 1 0"
                 ></a-entity>
+
+                 {/*robot*/}
+                 {/*
+                 <a-entity 
+                        gltf-model="url(https://raw.githubusercontent.com/ifeomaok/models/main/Models/robot_playground/scene.gltf)"
+                        scale="1 1 1"
+                        position="3 0 3"
+                        animation-mixer="clip: Experiment"
+                ></a-entity>
+                 */}
 
 
                 
