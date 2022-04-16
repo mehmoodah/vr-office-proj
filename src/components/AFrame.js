@@ -24,17 +24,24 @@ class AFrameEnviroment extends React.Component{
                     <audio id="office" src="https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/office_ambiance.wav?v=1649732899279"></audio>
                     <img id="groundTextures" src="https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"/>
 
-                    <a-asset-item id="wolf"
-                                    src="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/wolf_with_animations/scene.gltf?token=GHSAT0AAAAAABSDSTXGDLMSH5VDFJGPO3UUYSVUQJQ)">
+                    <a-asset-item id="man"
+                                    src="https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/business_man/scene.gltf">
                     </a-asset-item>
 
 
                 </a-assets>
 
+                {/* see for more: https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd */}
 
+                <a-gltf-model
+                    position="0 0 -3"
+                    scale="1 1 1"
+                    src="#man"
+                    animation-mixer="clip:Rig|sitting_idle"
+                ></a-gltf-model>
 
                 {/*Instruction text*/}
-                <a-entity
+                <a-entity 
                     position="-3.000 1.000 -7.500"
                     scale=".300 .300 .300"
                     id="instructionText"
@@ -355,12 +362,11 @@ class AFrameEnviroment extends React.Component{
                 {/* camera */}
 
                 <a-camera position=" 0 1 0" > <a-cursor color="#FF6969" fuse="true"></a-cursor></a-camera>
-            
+
             </a-scene>
 
 
         );
-           
     }
 }
 
