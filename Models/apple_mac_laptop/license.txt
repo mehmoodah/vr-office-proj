@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apple Mac laptop
+* source:	https://sketchfab.com/3d-models/apple-mac-laptop-94016bc400fb4464bde2236c8c74e465
+* author:	Harini1984_ (https://sketchfab.com/Harini1984_)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apple Mac laptop" (https://sketchfab.com/3d-models/apple-mac-laptop-94016bc400fb4464bde2236c8c74e465) by Harini1984_ (https://sketchfab.com/Harini1984_) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
