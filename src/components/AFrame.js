@@ -145,228 +145,217 @@ class AFrameEnviroment extends React.Component{
                 <a-plane position="5 0 4.5" rotation="0 180 0"  width="6" height="8" color="orange"/>
                 */}
 
-{/* the floor   */}
+                {/* the floor   */}
 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 0"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 0"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 0"></a-box> 
 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 0"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 0"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 0"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 0"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 0"></a-box> 
 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -1"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -1"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -1"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -2"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -2"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -2"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -3"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -3"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -3"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -4"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -4"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -4"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -5"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -5"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -5"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -6"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -6"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -6"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -7"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -7"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -7.7"></a-box> 
+                
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -7.7"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -7.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="0 0 3.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="1 0 3.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-1 0 3.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="2 0 3.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-2 0 3.7"></a-box> 
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="3 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-3 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-4 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-5 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-6 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-6 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 1"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 2"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 3"></a-box> 
+                <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-7 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 1"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 2"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 3"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="0.6" position="-7.7 0 3.7"></a-box>
+
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 1"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 2"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 3"></a-box> 
+                <a-box src="#groundTextures" width="0.6" height="0.11" depth="0.6" position="3.7 0 3.7"></a-box>
+
+                {/* camera */}
+
+                <a-camera position=" 0 1 0" > <a-cursor color="#FF6969" fuse="true"></a-cursor></a-camera>
             
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -1"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -1"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -2"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -2"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -2"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -3"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -3"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -3"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -4"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -4"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -4"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -5"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -5"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -5"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -6"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -6"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -6"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -7"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -7"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 -7.7"></a-box> 
-            
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 -7.7"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 -7.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="0 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="0 0 3.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="1 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="1 0 3.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-1 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-1 0 3.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="2 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="2 0 3.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-2 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-2 0 3.7"></a-box> 
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="3 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="3 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-3 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-3 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-4 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-4 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-5 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-5 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-6 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-6 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-6 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 1"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 2"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="1" position="-7 0 3"></a-box> 
-            <a-box src="#groundTextures" width="1" height="0.11" depth="0.6" position="-7 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 1"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 2"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="-7.7 0 3"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="0.6" position="-7.7 0 3.7"></a-box>
-
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 1"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 2"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 3"></a-box> 
-            <a-box src="#groundTextures" width="0.6" height="0.11" depth="0.6" position="3.7 0 3.7"></a-box>
-
-            <a-camera position=" 0 1 0" >
-        <a-cursor color="#FF6969" fuse="true"></a-cursor>
-      </a-camera>
-            
-            <a-box src="#groundTextures" color="#0000FF" 
-            position="2 2.25 0"> 
-            <a-animation attribute="rotation"
-                        to="0 360 0"
-                        repeat="indefinite"
-                        dur="5000">
-                        
-            </a-animation>
-
-            </a-box> 
-
             </a-scene>
 
 
