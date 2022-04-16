@@ -1,0 +1,588 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 7835,
+      "max": [
+        42.60118865966797,
+        55.074005126953125,
+        43.57396697998047
+      ],
+      "min": [
+        -52.29181671142578,
+        -62.26882553100586,
+        -0.23691463470458984
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 94020,
+      "componentType": 5126,
+      "count": 7835,
+      "max": [
+        1.0,
+        0.999998927116394,
+        0.999998927116394
+      ],
+      "min": [
+        -1.0,
+        -0.9992843270301819,
+        -1.0
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 7835,
+      "max": [
+        1.0,
+        0.9996042847633362,
+        0.9990647435188293,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.999996542930603,
+        -0.9991729855537415,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 7835,
+      "max": [
+        0.9939114451408386,
+        0.9913355708122253
+      ],
+      "min": [
+        0.0012170939007773995,
+        0.003393644466996193
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 24876,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 188040,
+      "componentType": 5126,
+      "count": 1020,
+      "max": [
+        43.26377487182617,
+        48.07567596435547,
+        28.391437530517578
+      ],
+      "min": [
+        -35.24388122558594,
+        -3.6464614868164063,
+        12.15090274810791
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 200280,
+      "componentType": 5126,
+      "count": 1020,
+      "max": [
+        1.0,
+        0.9971864223480225,
+        0.9961948394775391
+      ],
+      "min": [
+        -1.0,
+        -0.9971864223480225,
+        -0.9961948990821838
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 62680,
+      "componentType": 5126,
+      "count": 1020,
+      "max": [
+        0.9966352581977844,
+        0.9966338872909546
+      ],
+      "min": [
+        0.26350587606430054,
+        0.46830734610557556
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 99504,
+      "componentType": 5125,
+      "count": 2700,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 212520,
+      "componentType": 5126,
+      "count": 11417,
+      "max": [
+        97.0337142944336,
+        117.2226791381836,
+        26.80109977722168
+      ],
+      "min": [
+        -35.12451171875,
+        -3.5500640869140625,
+        0.06827354431152344
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 349524,
+      "componentType": 5126,
+      "count": 11417,
+      "max": [
+        1.0,
+        0.99925297498703,
+        0.9994357824325562
+      ],
+      "min": [
+        -1.0,
+        -0.9997777342796326,
+        -0.9990164041519165
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 125360,
+      "componentType": 5126,
+      "count": 11417,
+      "max": [
+        0.9999871253967285,
+        0.9994585514068604,
+        0.9992780089378357,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -0.9998202919960022,
+        -1.0,
+        -1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 70840,
+      "componentType": 5126,
+      "count": 11417,
+      "max": [
+        0.977814257144928,
+        0.9857470989227295
+      ],
+      "min": [
+        0.005009952932596207,
+        0.012185977771878242
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 110304,
+      "componentType": 5125,
+      "count": 34074,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "DPMA (https://sketchfab.com/DanTronMcTronDan)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/office-phone-ecefa2359e574c69b0926ea253646332",
+      "title": "Office Phone"
+    },
+    "generator": "Sketchfab-12.68.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 246600,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 162176,
+      "byteOffset": 246600,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 486528,
+      "byteOffset": 408776,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 308032,
+      "byteOffset": 895304,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1203336,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/phoneBody_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/phoneBody_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/phoneBody_normal.jpeg"
+    },
+    {
+      "uri": "textures/phoneDetails_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/phoneDetails_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/phoneDetails_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "phoneBody",
+      "normalTexture": {
+        "index": 2
+      },
+      "occlusionTexture": {
+        "index": 1
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    },
+    {
+      "alphaMode": "BLEND",
+      "doubleSided": true,
+      "name": "clearPlastic",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.3098433962585226,
+          0.3098433962585226,
+          0.3098433962585226,
+          0.35
+        ],
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.22
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "phoneDetails",
+      "normalTexture": {
+        "index": 5
+      },
+      "occlusionTexture": {
+        "index": 4,
+        "strength": 0.39
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 3
+        },
+        "metallicFactor": 0.58,
+        "metallicRoughnessTexture": {
+          "index": 4
+        },
+        "roughnessFactor": 0.73
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "phoneBody_phoneBody_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "phoneDetails_clearPlastic_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TEXCOORD_0": 7
+          },
+          "indices": 8,
+          "material": 1,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "name": "phoneDetails_phoneDetails_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 10,
+            "POSITION": 9,
+            "TANGENT": 11,
+            "TEXCOORD_0": 12
+          },
+          "indices": 13,
+          "material": 2,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "ff30ca556f754f55a0b83f9e255b79a8.fbx"
+    },
+    {
+      "children": [
+        3,
+        6
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        25.399999618530273,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.6399328803925005e-15,
+        -25.399999618530273,
+        0.0,
+        0.0,
+        25.399999618530273,
+        5.6399328803925005e-15,
+        0.0,
+        35.07610321044922,
+        386.228515625,
+        1.2250220775604248,
+        1.0
+      ],
+      "name": "phoneBody"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -1.3809490203857422,
+        0.048229217529296875,
+        -15.205846786499023,
+        1.0
+      ],
+      "name": "Object_4"
+    },
+    {
+      "mesh": 0,
+      "name": "phoneBody_phoneBody_0"
+    },
+    {
+      "children": [
+        7
+      ],
+      "matrix": [
+        25.399999618530273,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.6399328803925005e-15,
+        -25.399999618530273,
+        0.0,
+        0.0,
+        25.399999618530273,
+        5.6399328803925005e-15,
+        0.0,
+        620.2579345703125,
+        662.3949584960938,
+        -1173.7816162109375,
+        1.0
+      ],
+      "name": "phoneDetails"
+    },
+    {
+      "children": [
+        8,
+        9
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        -0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        -24.41960334777832,
+        -46.211875915527344,
+        -26.078542709350586,
+        1.0
+      ],
+      "name": "Object_7"
+    },
+    {
+      "mesh": 1,
+      "name": "phoneDetails_clearPlastic_0"
+    },
+    {
+      "mesh": 2,
+      "name": "phoneDetails_phoneDetails_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    },
+    {
+      "sampler": 0,
+      "source": 4
+    },
+    {
+      "sampler": 0,
+      "source": 5
+    }
+  ]
+}
