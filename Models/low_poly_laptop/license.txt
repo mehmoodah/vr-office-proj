@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low poly Laptop.
+* source:	https://sketchfab.com/3d-models/low-poly-laptop-48cb9699178447f284f15c8ef1d47f6b
+* author:	ABHISHEK VERMA , 3D Designer (https://sketchfab.com/abhishekverma)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low poly Laptop." (https://sketchfab.com/3d-models/low-poly-laptop-48cb9699178447f284f15c8ef1d47f6b) by ABHISHEK VERMA , 3D Designer (https://sketchfab.com/abhishekverma) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
