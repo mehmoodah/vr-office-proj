@@ -1,0 +1,350 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        6.023499965667725,
+        0.6718000173568726,
+        6.004300117492676
+      ],
+      "min": [
+        -5.985099792480469,
+        -0.38769999146461487,
+        -6.004300117492676
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 23508,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        0.9870191812515259,
+        1.0,
+        0.9871165752410889
+      ],
+      "min": [
+        -0.9870191812515259,
+        -1.0,
+        -0.9871165752410889
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        1.0,
+        1.0,
+        0.9999642372131348,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -0.99996417760849,
+        1.0
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        0.9350000023841858,
+        0.9940999746322632
+      ],
+      "min": [
+        0.005499999970197678,
+        0.008700000122189522
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 15672,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        0.9350000023841858,
+        0.9940999746322632
+      ],
+      "min": [
+        0.005499999970197678,
+        0.008700000122189522
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 31344,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        0.9350000023841858,
+        0.9940999746322632
+      ],
+      "min": [
+        0.005499999970197678,
+        0.008700000122189522
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 47016,
+      "componentType": 5126,
+      "count": 1959,
+      "max": [
+        0.9350000023841858,
+        0.9940999746322632
+      ],
+      "min": [
+        0.005499999970197678,
+        0.008700000122189522
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 8538,
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "plaggy (https://sketchfab.com/plaggy)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/cc0-wall-clock-3-8c95c5e879f24f8294d9c8c25804ab95",
+      "title": "CC0 - Wall Clock 3"
+    },
+    "generator": "Sketchfab-12.65.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 34152,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 62688,
+      "byteOffset": 34152,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 47016,
+      "byteOffset": 96840,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 31344,
+      "byteOffset": 143856,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 175200,
+      "uri": "scene.bin"
+    }
+  ],
+  "extensionsUsed": [
+    "KHR_materials_transmission"
+  ],
+  "images": [
+    {
+      "uri": "textures/WallClock3_baseColor.png"
+    },
+    {
+      "uri": "textures/WallClock3_metallicRoughness.png"
+    },
+    {
+      "uri": "textures/WallClock3_normal.png"
+    },
+    {
+      "uri": "textures/WallClock3_transmission.png"
+    }
+  ],
+  "materials": [
+    {
+      "alphaMode": "BLEND",
+      "extensions": {
+        "KHR_materials_transmission": {
+          "transmissionFactor": 1.0,
+          "transmissionTexture": {
+            "index": 3
+          }
+        }
+      },
+      "name": "WallClock3",
+      "normalTexture": {
+        "index": 2
+      },
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicRoughnessTexture": {
+          "index": 1
+        }
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "WallClock3_WallClock3_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3,
+            "TEXCOORD_1": 4,
+            "TEXCOORD_2": 5,
+            "TEXCOORD_3": 6
+          },
+          "indices": 7,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        2.220446049250313e-16,
+        -1.0,
+        0.0,
+        0.0,
+        1.0,
+        2.220446049250313e-16,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "Sketchfab_model"
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        -1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "3591266375494020b52a9bf77f651d47.fbx"
+    },
+    {
+      "children": [
+        3
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        4
+      ],
+      "matrix": [
+        0.02539999969303608,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        5.639932896936113e-18,
+        -0.02539999969303608,
+        0.0,
+        0.0,
+        0.02539999969303608,
+        5.639932896936113e-18,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "name": "WallClock3"
+    },
+    {
+      "mesh": 0,
+      "name": "WallClock3_WallClock3_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Sketchfab_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    },
+    {
+      "sampler": 0,
+      "source": 2
+    },
+    {
+      "sampler": 0,
+      "source": 3
+    }
+  ]
+}
