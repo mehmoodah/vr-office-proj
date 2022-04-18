@@ -1,0 +1,11 @@
+Model Information:
+* title:	B2-C
+* source:	https://sketchfab.com/3d-models/b2-c-857b29dfccd6460bad6c0d8e115b256b
+* author:	eeelabvisual (https://sketchfab.com/eeelabvisual)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "B2-C" (https://sketchfab.com/3d-models/b2-c-857b29dfccd6460bad6c0d8e115b256b) by eeelabvisual (https://sketchfab.com/eeelabvisual) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
