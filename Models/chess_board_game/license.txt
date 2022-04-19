@@ -1,0 +1,11 @@
+Model Information:
+* title:	Chess Board Game
+* source:	https://sketchfab.com/3d-models/chess-board-game-6bb6ceafcfa245ca892599e705242a88
+* author:	Miguel Adão (https://sketchfab.com/theauditor)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Chess Board Game" (https://sketchfab.com/3d-models/chess-board-game-6bb6ceafcfa245ca892599e705242a88) by Miguel Adão (https://sketchfab.com/theauditor) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
