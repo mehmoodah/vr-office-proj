@@ -1,0 +1,11 @@
+Model Information:
+* title:	Volkan
+* source:	https://sketchfab.com/3d-models/volkan-df9af4b3c2ea40d89a736741e8c07bb1
+* author:	sight (https://sketchfab.com/sight)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Volkan" (https://sketchfab.com/3d-models/volkan-df9af4b3c2ea40d89a736741e8c07bb1) by sight (https://sketchfab.com/sight) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
