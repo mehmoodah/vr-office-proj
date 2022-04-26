@@ -65,7 +65,7 @@ class AFrameEnviroment extends React.Component{
                 
                 
                 <a-asset-item id="man"
-                          src="https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/talking_2/scene.gltf">
+                          src="https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/business_man/scene.gltf">
                     </a-asset-item>
 
                 <a-gltf-model
@@ -549,7 +549,20 @@ class AFrameEnviroment extends React.Component{
                 <a-box src="#groundTextures" width="0.6" height="0.11" depth="1" position="3.7 0 3"></a-box> 
                 <a-box src="#groundTextures" width="0.6" height="0.11" depth="0.6" position="3.7 0 3.7"></a-box>
 
-                {/* camera */}
+                {/* animation 
+
+                <a-box position="1 1 0" 
+                animation="property: position; to: 3 3 3; dur: 5000; easing: linear; loop: true" color="#0000FF"></a-box> 
+
+                <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+
+                <a-entity
+                geometry="primitive: box"
+                material="color: red"
+                animation__mouseenter="property: position; to: 3 3 3; dur: 5000; easing: linear; loop: true; startEvents: mouseenter;"
+                animation__mouseleave="property: position; to: 1 1 1; dur: 5000; easing: linear; loop: true; startEvents: mouseleave;">
+                </a-entity>
+               */}
 
                
             </a-scene>
