@@ -1,0 +1,11 @@
+Model Information:
+* title:	bird
+* source:	https://sketchfab.com/3d-models/bird-7a51fc9ea78d499e980a929ca25a6dba
+* author:	zhao517578549 (https://sketchfab.com/zhao517578549)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "bird" (https://sketchfab.com/3d-models/bird-7a51fc9ea78d499e980a929ca25a6dba) by zhao517578549 (https://sketchfab.com/zhao517578549) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
