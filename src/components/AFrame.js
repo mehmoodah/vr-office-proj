@@ -28,22 +28,15 @@ class AFrameEnviroment extends React.Component{
                 </a-assets>
 
 
-                
-                {/*Office background sound*/}
-                <a-entity sound="src: url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/office_ambiance.wav?v=1649732899279);
-                                autoplay: true;
-                                refDistance: 4;
-                                rolloffFactor: 4">
-                </a-entity>
 
                 {/*plant*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/plant/scene.gltf)"
                         scale=".001 .001 .001"
                         position="2 0 -7.6"
                 ></a-entity>
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/scene%20(3).glb?v=1649148396664)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/plant/scene.gltf)"
                         scale=".001 .001 .001"
                         position="-7.9 0 -7.6"
                 ></a-entity>
@@ -52,7 +45,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*drawer*/}
                 <a-entity 
-                        gltf-model="url(https://cdn.glitch.global/0e699687-00d8-48d5-9d83-9e74473ca550/drawer.glb?v=1649167482215)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/drawer/model.gltf)"
                         scale=".100 .100 .100"
                         position="3 0 -7"
                 ></a-entity>
@@ -62,10 +55,8 @@ class AFrameEnviroment extends React.Component{
                 
 
                 {/*Josh model*/}
-                
-                
                 <a-asset-item id="man"
-                          src="https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/business_man/scene.gltf">
+                          src="https://raw.githubusercontent.com/alialqarni2040/model/main/talking_2/scene.gltf">
                     </a-asset-item>
 
                 <a-gltf-model
@@ -80,7 +71,7 @@ class AFrameEnviroment extends React.Component{
                 
         {/*Wood Boss Office Table*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/wood_boss_office_chair/model.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/wood_boss_office_chair/model.gltf)"
                         scale=".006 .006 .006"
                         position="-1.5 1 -6"
                         rotation="0 -90 0"
@@ -98,23 +89,23 @@ class AFrameEnviroment extends React.Component{
 
                 {/*Board and table*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/a_class_room/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/a_class_room/scene.gltf)"
                         scale="5 5 5"
                         position="-6 0 -7"
                         rotation="0 0 0"
                 ></a-entity>
 
                 
-            {/*folders*/}
-                <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/folders/scene.gltf)"
+                 {/*folders*/}
+                 <a-entity 
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/folders/scene.gltf)"
                         scale="1.2 1 1.2"
                         position="3 2 -6.5"
                         rotation="0 90 0"
                         
                 ></a-entity>
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/folders/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/folders/scene.gltf)"
                         scale="1.2 1 1.2"
                         position="3.05 2 -6.5"
                         rotation="0 90 0"
@@ -123,7 +114,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*office_phone*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/office_phone/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/office_phone/scene.gltf)"
                         scale=".0001 .0001 .0001"
                         position="-2.4 1.1 -6"
                         rotation="0 0 0"
@@ -132,16 +123,16 @@ class AFrameEnviroment extends React.Component{
 
                 {/*Notebook_and_pen*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/notebook_and_pen/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/notebook_and_pen/scene.gltf)"
                         scale=".05 .05 .05"
                         position="-1 1.1 -6"
                         rotation="0 0 0"
                         
                 ></a-entity>
 
-            {/*window_blinds*/}
+                 {/*window_blinds*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/window_blinds/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/window_blinds/scene.gltf)"
                         scale=".02 .03 .02"
                         position="-2 0.5 -9"
                         rotation="0 0 0"
@@ -149,7 +140,7 @@ class AFrameEnviroment extends React.Component{
                 ></a-entity>
 
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/window_blinds/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/window_blinds/scene.gltf)"
                         scale=".02 .03 .02"
                         position="-6.5 0.5 -9"
                         rotation="0 0 0"
@@ -158,7 +149,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*Office_printer*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/mfp_office_printer/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/mfp_office_printer/scene.gltf)"
                         scale=".01 .015 .01"
                         position="1 0 -7.5"
                         rotation="0 0 0"
@@ -167,7 +158,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*table_meeting*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/table%20meeting/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/table%20meeting/scene.gltf)"
                         scale=".03 .03 .03"
                         position="-5 0 0"
                         rotation="0 0 0"
@@ -176,7 +167,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*coffee_table*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/jahre_coffee_table_-_109385/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/jahre_coffee_table_-_109385/scene.gltf)"
                         scale=".9 2 .9"
                         position="-1.4 0 -4.8"
                         rotation="0 0 0"
@@ -185,7 +176,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*low_poly_laptop*/}
                  <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/low_poly_laptop/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/low_poly_laptop/scene.gltf)"
                         scale="0.09 0.09 0.09"
                         position="-1.5 1.1 -6"
                         rotation="0 180 0"
@@ -196,13 +187,13 @@ class AFrameEnviroment extends React.Component{
 
                 {/*White Office Chair*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/White_Office_Chair/model.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/White_Office_Chair/model.gltf)"
                         scale="1 1 1"
                         position="-2.6 0 -4"
                         rotation="0 -40 0"
                 ></a-entity>
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ifeoma/Models/White_Office_Chair/model.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/White_Office_Chair/model.gltf)"
                         scale="1 1 1"
                         position="-0.3 0 -5.5"
                         rotation="0 -220 0"
@@ -211,7 +202,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*clock*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/clock_3/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/clock_3/scene.gltf)"
                         scale="1.2 1.2 1.2"
                         position="-2.2 2 -7.9"
                         rotation="0 0 0"
@@ -220,7 +211,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*coffee_machine*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/coffee_machine/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/coffee_machine/scene.gltf)"
                         scale=".5 .5 .5"
                         position="3. 1.2 -4"
                         rotation="0 90 0"
@@ -228,8 +219,8 @@ class AFrameEnviroment extends React.Component{
                 ></a-entity>
 
                {/*coffee_table*/}
-               <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/lion_paw_table/scene.gltf)"
+                <a-entity 
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/lion_paw_table/scene.gltf)"
                         scale="15 30 15"
                         position="3.2 -0.7 -4.2"
                         rotation="0 180 0"
@@ -238,7 +229,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*floor_lamp*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/waterloo_floor_lamp_whitebrushed_brass_-_56053/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/waterloo_floor_lamp_whitebrushed_brass_-_56053/scene.gltf)"
                         scale="1 1.2 1"
                         position="-2 0 -7.5"
                         rotation="0 270 0"
@@ -247,14 +238,14 @@ class AFrameEnviroment extends React.Component{
 
                 {/*glass_cup*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/glass_cup/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/glass_cup/scene.gltf)"
                         scale="0.0005 0.0005 0.0005"
                         position="3. 1.2 -4"
                         rotation="0 180 0"
                         
                 ></a-entity>
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/glass_cup/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/glass_cup/scene.gltf)"
                         scale="0.0005 0.0005 0.0005"
                         position="3. 1.2 -4.2"
                         rotation="0 180 0"
@@ -263,15 +254,15 @@ class AFrameEnviroment extends React.Component{
 
                 {/*floor_lamp*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/b2-c/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/b2-c/scene.gltf)"
                         scale="0.05 0.05 0.05"
                         position="4 1.3 1.3"
                         rotation="0 -90 0"
                         
                 ></a-entity>
-
+                 {/*frame_low_poly*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/frame_low_poly/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/frame_low_poly/scene.gltf)"
                         scale="0.02 0.01 0.02"
                         position="-7.8 .8 1"
                         rotation="0 -90 0"
@@ -280,7 +271,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*simple_door*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/simple_door/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/simple_door/scene.gltf)"
                         scale="1 1 1"
                         position="-2 0 4"
                         rotation="0 0 0"
@@ -289,7 +280,7 @@ class AFrameEnviroment extends React.Component{
 
                  {/*water_fountain*/}
                  <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/water_fountain/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/water_fountain/scene.gltf)"
                         scale="0.0015 0.001 0.0015"
                         position="3.05 1.3 3.9"
                         rotation="0 180 0"
@@ -299,7 +290,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*water_glass*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/casablanca_water_glass_300ml/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/casablanca_water_glass_300ml/scene.gltf)"
                         scale="0.001 0.0013 0.001"
                         position="3.15 1.29 3.4"
                         rotation="0 180 0"
@@ -308,7 +299,7 @@ class AFrameEnviroment extends React.Component{
 
                 {/*living_room*/}
                 <a-entity 
-                        gltf-model="url(https://raw.githubusercontent.com/mehmoodah/vr-office-proj/Ali/Models/stylised_living_room/scene.gltf)"
+                        gltf-model="url(https://raw.githubusercontent.com/alialqarni2040/model/main/stylised_living_room/scene.gltf)"
                         scale="1.2 1 1.2"
                         position="1 0 1"
                         rotation="0 -90 0"
@@ -318,7 +309,7 @@ class AFrameEnviroment extends React.Component{
 
                 
 
-
+                {/*walls*/}
                 <rw-room position="-2 0 -2" material="color:  #91898c;" height="3">
                     <rw-wall position="6 0 -6"></rw-wall>
                     <rw-wall position="6 0 6"></rw-wall>
@@ -565,7 +556,20 @@ class AFrameEnviroment extends React.Component{
                */}
 
                
-            </a-scene>
+            {/* animation 
+                <a-box position="1 1 0" 
+                animation="property: position; to: 3 3 3; dur: 5000; easing: linear; loop: true" color="#0000FF"></a-box> 
+                <a-entity id="mouseCursor" cursor="rayOrigin: mouse"></a-entity>
+                <a-entity
+                geometry="primitive: box"
+                material="color: red"
+                animation__mouseenter="property: position; to: 3 3 3; dur: 5000; easing: linear; loop: true; startEvents: mouseenter;"
+                animation__mouseleave="property: position; to: 1 1 1; dur: 5000; easing: linear; loop: true; startEvents: mouseleave;">
+                </a-entity>
+               */}
+
+               
+                </a-scene>
 
 
         );
