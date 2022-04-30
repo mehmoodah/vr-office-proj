@@ -1,0 +1,11 @@
+Model Information:
+* title:	Stylised Living Room | Blender Asset Pack
+* source:	https://sketchfab.com/3d-models/stylised-living-room-blender-asset-pack-62df6d9ddfb447ca874c2735b1963b3a
+* author:	Benji Labs (https://sketchfab.com/benjilabs)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Stylised Living Room | Blender Asset Pack" (https://sketchfab.com/3d-models/stylised-living-room-blender-asset-pack-62df6d9ddfb447ca874c2735b1963b3a) by Benji Labs (https://sketchfab.com/benjilabs) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
